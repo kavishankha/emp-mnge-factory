@@ -1,0 +1,86 @@
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    color: #00AD7C;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+form {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 400px;
+    margin: 0 auto;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+}
+
+label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #00AD7C;
+}
+
+input[type="text"],input[type="password"]{
+    width: 100%;
+    padding: 12px 20px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    transition: 0.5s;
+
+}
+
+select {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 5px;
+    width: 100%;
+    font-size: 16px;
+}
+
+input[type="submit"] {
+    background-color: #00AD7C;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #00AD7C;
+}
+.gradiant{
+    background: linear-gradient(-45deg, #00AD7C,#52D681,#B5FF7D,#FFF8B5);
+    background-size: 400% 400%;
+    animation: backgroundAnimation 10s ease infinite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@keyframes backgroundAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+select{
+    color: #00AD7C;
+}

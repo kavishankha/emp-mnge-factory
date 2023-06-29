@@ -33,6 +33,4 @@ The Employee Management System is a software solution designed to address the ch
 
 Contributions are welcome! If you encounter any issues or have suggestions for improvement, please open an issue or submit a pull request. Ensure that you follow the code of conduct.
 
-## License
 
-This project is licensed under the [MIT License](LICENSE).
